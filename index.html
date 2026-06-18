@@ -8,13 +8,37 @@
 
     <title>Rafael Salinas | Portafolio</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap">
+
+    <!-- AOS - Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Estilos propios -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- Header / Navegación -->
-    <header id="header">
+<header id="header">
+        <nav class="nav">
+            <a href="#hero" class="nav__logo">Rafael Salinas</a>
 
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+                <li><a href="#desarrollo" class="nav__link">Desarrollo</a></li>
+                <li><a href="#ia" class="nav__link">IA</a></li>
+                <li><a href="#contenido" class="nav__link">Contenido</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
     </header>
 
     <!-- Contenido principal -->
@@ -51,6 +75,9 @@
     <footer id="contacto">
 
     </footer>
+
+<!-- AOS Init -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="js/main.js"></script>
 </body>
