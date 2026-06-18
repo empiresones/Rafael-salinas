@@ -339,6 +339,28 @@ ul {
     color: var(--color-muted);
     line-height: 1.7;
 }
+/* ================================
+   IA Tools (iconos dentro de cards)
+   ================================ */
+
+.ia__tools {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.ia__tools .skill__card {
+    padding: 1rem 0.75rem;
+    flex: 0 0 auto;
+    min-width: 90px;
+}
+
+.ia__tools .skill__card img {
+    width: 36px;
+    height: 36px;
+}
+
 
 /* ================================
    Contenido
